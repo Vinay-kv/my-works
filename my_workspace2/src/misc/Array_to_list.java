@@ -12,6 +12,7 @@ public class Array_to_list {
 		
 		Arrays.asList(a);
 		Arrays.asList(b);
+		System.out.println(a);
 		
 
 	}
