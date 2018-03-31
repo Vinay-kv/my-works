@@ -1,0 +1,6 @@
+Conclusion
+
+1.When we extend outerclass, innerclass(or its members) won't be inherited, rather we should explicitly  
+  inherit innerclass to access its members
+  
+2.Same is the case for instanciation,we should  explicitly instanciate innerclass to access its members

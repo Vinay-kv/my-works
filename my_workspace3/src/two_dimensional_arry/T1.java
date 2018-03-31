@@ -1,0 +1,13 @@
+package two_dimensional_arry;
+
+public class T1 {
+
+	public static void main(String[] args) 
+	{
+		int a[][]=new int[3][4];
+		
+		a={{1,2,3,4},{5,6,7,8},{9,10,11,12}};//Array constants can only be used in initializers
+
+	}
+
+}
