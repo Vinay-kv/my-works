@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>Vinay_Expenditure</groupId>
+	<artifactId>Vinay_Expenditure</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>Expenditure management app</name>
+	<description>Actually I was staying in rented house with my friends, there we were used to write expenditure on the things which will be used by all housemates on a notebook and on month end we were settling our expenditure.
+I found this as opportunity to apply my software knowledge, and started to build simple "Expenditure Management" web application using JDBC, J2EE technology and MySQL database.
+Features:
+ login/logout (used javax.servlet.http.HttpSession for implementing)
+ Verification and validation for registration and login form submission using JavaScript
+Tools used:
+Eclipse, Apache Tomcat web server, MySQL database.</description>
+	<properties>
+		<java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+	</properties>
+	<dependencies>
+	<!--  <dependency>
+		<groupId>org.postgresql</groupId>
+		<artifactId>postgresql</artifactId>
+	</dependency> -->
+	<!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>servlet-api</artifactId>
+    <version>2.5</version>
+    <scope>provided</scope>
+</dependency>
+	
+	</dependencies>
+ 	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.0.0</version>
+				<configuration>
+					<warSourceDirectory>WebContent</warSourceDirectory>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
