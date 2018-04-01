@@ -10,4 +10,9 @@ public class Profile {
 	    public String greeting() {
 	        return "This is vinay, success..";
 	    }
+	  
+	  @RequestMapping("/")
+	    public String profile() {
+	        return "This is vinay, success.. lala";
+	    }
 }
